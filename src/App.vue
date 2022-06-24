@@ -4,6 +4,8 @@
       <router-link to="/clock">clock</router-link>
       <router-link to="/ripple-button">ripple-button</router-link>
       <router-link to="/notification">Toast-notification</router-link>
+      <router-link to="/progress-bar">Progress-Bar</router-link>
+      <router-link to="vertical-slider">Vertical-Slider</router-link>
     </div>
     <router-view />
   </div>

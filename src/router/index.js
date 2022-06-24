@@ -3,6 +3,8 @@ import VueRouter from "vue-router";
 import TheClock from  "../components/TheClock.vue";
 import RippleButton from "../components/RippleButton.vue";
 import Notification from "../components/Notification.vue";
+import ProgressBar from "../components/ProgressBar.vue";
+import VerticalSlider from "../components/VerticalSlider.vue";
 
 Vue.use(VueRouter);
 
@@ -21,6 +23,16 @@ const routes = [
     path:"/notification",
     name:"notification",
     component:Notification
+  },
+  {
+    path:"/progress-bar",
+    name:"progress-bar",
+    component:ProgressBar
+  },
+  {
+    path:"/vertical-slider",
+    name:"vertical-slider",
+    component:VerticalSlider
   }
   // {
   //   path: "/",
